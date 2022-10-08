@@ -17,56 +17,84 @@ ASSIGNMENT RULES
 */
 
 // JS Basics
-
+console.log(
+  "----------------------------------------------------------------JS BASICS-------------------------------------------------"
+);
 /* EXERCISE A
-
 Create a variable called test and assign a string value to it.
-
 */
-
+console.log(
+  "------------------------------------------------EXERCISE A---------------------------------"
+);
+let test = "I am a string";
+console.log("The string is --->", test);
 /* EXERCISE B
-
 Create a variable called sum and assign to it the result of the sum between the numbers 10 and 20.
-
 */
-
+console.log(
+  "------------------------------------------------EXERCISE B---------------------------------"
+);
+let sum = 10 + 20;
+console.log("Total sum is", sum);
 /* EXERCISE C
 
 Create a variable called random and assign to it a random number between 0 and 20 (it should be randomly created at each execution).
-
 */
+console.log(
+  "------------------------------------------------EXERCISE C---------------------------------"
+);
+let random = Math.random() * 20;
+console.log(random);
 
 /* EXERCISE D
-
 Create a variable called me and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
-
 */
+console.log(
+  "------------------------------------------------EXERCISE D---------------------------------"
+);
+const me = {
+  name: "Francisco Javier",
+  surname: "Fortes Carrillo",
+  age: 32,
+};
+console.log(me);
 
 /* EXERCISE E
-
 Write a piece of code for programmatically removing the age property from the previously create object.
-
 */
+console.log(
+  "------------------------------------------------EXERCISE E---------------------------------"
+);
+delete me.age;
+console.log(me);
 
 /* EXERCISE F
-
 Write a piece of code for programmatically adding to the me object you defined before an array called skills, containing the programming languages you know right now.
-
 */
+console.log(
+  "------------------------------------------------EXERCISE F---------------------------------"
+);
+me.skills = ["HTML", "CSS", "JS"];
+console.log(me);
 
 /* EXERCISE G
-
 Write a piece of code for programmatically removing the last skill from the skills array inside the me object.
-
 */
-
+console.log(
+  "------------------------------------------------EXERCISE G---------------------------------"
+);
+me.skills.pop();
+console.log(me);
 // JS Functions
-
+console.log(
+  "---------------------------------------------------------------JS FUNCTION------------------------------------------------"
+);
 /* EXERCISE 1
-
 Write a function called dice; it should randomize an integer number between 1 and 6.
-
 */
+console.log(
+  "------------------------------------------------EXERCISE 1---------------------------------"
+);
 
 /* EXERCISE 2
 
